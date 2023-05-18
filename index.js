@@ -10,5 +10,7 @@ window.addEventListener('keydown', (e) => {
     key.classList.add('playing');
 });
 
-
+window.addEventListener('keyup', (e) => {
+    document.querySelector('.playing').classList.remove('playing');
+});
 
